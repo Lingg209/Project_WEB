@@ -149,28 +149,15 @@ section.blog-post-area h4 span.author-name {
     top: 0;
     width: 100%;
 }
-
-.blog-post-area .single-post h3 {
-    margin: 25px 0 15px;
-}
-
-.blog-post-area .pegination {
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
-
-.blog-post-area .pegination .nav-links {
+/* CSS for singlePage */
+section.single-blog-area h2{
+    color: #448aff;
+    font-family: Geometria;
+    text-align: left;
     margin: 0;
-    padding: 0;
-    text-align: center;
 }
 
-.blog-post-area .blog-post-area-style {
-    margin: 0 20px 0 40px;
-}
 
-.blog-post-area .pegination .nav-links a {
-    text-decoration: none;
-}
+
 /* End of .css */
 
