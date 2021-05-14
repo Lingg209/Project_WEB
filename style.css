@@ -1,0 +1,176 @@
+
+.wrapper section.bg-text-area .bg-text {
+    background-image: url(img/overbr.jpg);
+    background-size: 100% 100%;
+    padding: 205px 280px;
+}
+
+.wrapper section.bg-text-area .bg-text h3 {
+    color: #448aff;
+    font-family: Geometria;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.wrapper section.bg-text-area .bg-text p {
+    color: rgb(255, 255, 255);
+    font-family: Geometria;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 33px;
+    margin: 32px 0 0;
+    text-align: center;
+}
+section.blog-post-area {
+    margin-top: 35px;
+}
+
+section.blog-post-area .big-image-0 {
+    float: left;
+    width: 50%;
+    padding-right: 20px;
+}
+
+section.blog-post-area .big-image {
+    float: left;
+    width: 35%;
+    padding-right: 35px;
+}
+
+section.blog-post-area .big-text {
+    float: left;
+    width: 65%;
+    padding-right: 20px;
+}
+
+section.blog-post-area img {
+    width: 100%;
+}
+
+section.blog-post-area .big-text h3 {
+    margin: 10px 0 0;
+}
+
+section.blog-post-area .big-text h3 a {
+    font-family: Geometria;
+    font-weight: 700;
+    font-size: 40px;
+    color: #061e37;
+    text-decoration: none;
+}
+
+section.blog-post-area .big-text p {
+    color: #061e37;
+    font-family: Geometria ;
+    padding-top: 18px;
+    text-align: justify;
+    text-decoration: none;
+}
+
+section.blog-post-area .big-text h4 {
+    margin-top: 25px;
+    padding-top: 30px;
+    position: relative;
+}
+
+section.blog-post-area .big-text h4::before {
+    background: #e6e6e6 none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+section.blog-post-area .single-post {
+    padding-right: 20px;
+    margin: 50px 0px 0px;
+    font-family: Geometria ;
+}
+
+section.blog-post-area h4 span {
+    font-family: Geometria;
+    font-weight: 400;
+    font-size: 15px;
+    color: #061e37;
+    text-decoration: none;
+}
+
+section.blog-post-area .big-text h4 span.author {
+    float: right
+}
+
+section.blog-post-area h4 span.author-name {
+    font-weight: 500;
+}
+
+.blog-post-area .single-post h3 a {
+    font-family: Geometria;
+    font-size: 28px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #061e37;
+}
+
+.blog-post-area .single-post p {
+    color: #061e37;
+    font-family: Geometria;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    padding-top: 14px;
+    position: relative;
+    text-align: justify;
+}
+
+.blog-post-area .single-post h4 {
+    margin-bottom: 12px;
+    padding-top: 10px;
+    position: relative;
+}
+
+.blog-post-area .single-post h4::before {
+    background: #e6e6e6 none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.blog-post-area .single-post p::before {
+    background: #e6e6e6 none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.blog-post-area .single-post h3 {
+    margin: 25px 0 15px;
+}
+
+.blog-post-area .pegination {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.blog-post-area .pegination .nav-links {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.blog-post-area .blog-post-area-style {
+    margin: 0 20px 0 40px;
+}
+
+.blog-post-area .pegination .nav-links a {
+    text-decoration: none;
+}
+/* End of .css */
+
