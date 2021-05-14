@@ -149,15 +149,43 @@ section.blog-post-area h4 span.author-name {
     top: 0;
     width: 100%;
 }
-/* CSS for singlePage */
-section.single-blog-area h2{
-    color: #448aff;
-    font-family: Geometria;
-    text-align: left;
-    margin: 0;
+
+
+/*css for single blog page*/
+
+.single-blog-area {
+    margin-bottom: 100px;
 }
 
+.single-blog-area .border-top {
+    border-top: 1px solid #40c4ff;
+}
 
+.single-blog-area h2 {
+    color: #40c4ff;
+    font-family: Geometria;
+    font-size: 35px;
+    font-weight: 250;
+    margin-bottom: 30px;
+    margin-top: 45px;
+}
+
+.single-blog-area p {
+    font-family: Geometria;
+    font-size: 16px;
+    font-weight: 250;
+    line-height: 30px;
+    position: relative;
+    text-align: justify;
+}
+
+.single-blog-area .blog-area-part p {
+    margin-top: 10px;
+}
+
+.single-blog-area .for-style {
+    margin-bottom: 30px;
+}
 
 /* End of .css */
 
