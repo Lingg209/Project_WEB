@@ -151,6 +151,47 @@ section.blog-post-area h4 span.author-name {
 }
 
 
+.blog-post-area .pegination {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.blog-post-area .pegination .nav-links {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.blog-post-area .pegination .nav-links .page-numbers {
+    border: 1px solid #448aff;
+    border-radius: 50%;
+    color: #448aff;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 45px;
+    line-height: 45px;
+    list-style: outside none none;
+    margin-right: 5px;
+    text-align: center;
+    width: 45px;
+}
+
+.blog-post-area .pegination .nav-links .page-numbers.current {
+    background: #448aff;
+    color: #fff;
+}
+
+.blog-post-area .pegination .nav-links .page-numbers:hover {
+    background: #448aff;
+    color: #fff;
+}
+
+.blog-post-area .pegination .nav-links a {
+    text-decoration: none;
+}
+
 /*css for single blog page*/
 
 .single-blog-area {
@@ -158,11 +199,11 @@ section.blog-post-area h4 span.author-name {
 }
 
 .single-blog-area .border-top {
-    border-top: 1px solid #40c4ff;
+    border-top: 1px solid #256c8d;
 }
 
 .single-blog-area h2 {
-    color: #40c4ff;
+    color: #256c8d;
     font-family: Geometria;
     font-size: 35px;
     font-weight: 250;
@@ -180,12 +221,15 @@ section.blog-post-area h4 span.author-name {
 }
 
 .single-blog-area .blog-area-part p {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .single-blog-area .for-style {
     margin-bottom: 30px;
 }
+
+
+/* css for comment */
 
 /* End of .css */
 
