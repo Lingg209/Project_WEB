@@ -108,17 +108,17 @@
                                     <a href = "#" title="Quán ngon">Quán ngon</a>
                                 </li>
                                 <li>
-                                    <a href="" title="Đăng nhập">Đăng nhập<i class="fa fa-angle-down"></i></a>
+                                    <a href="#" title="Đăng nhập">Đăng nhập<i class="fa fa-angle-down"></i></a>
                                     <ul class="submenu">
                                         <li class="web_sign_up">
-                                            <a href="" title="Đăng nhập">Đăng nhập</a>
+                                            <a class="signup_windown" href="#web_login" title="Đăng nhập">Đăng nhập</a>
                                         </li>
                                         <li class="web_sign_in">
-                                            <a chref="" title="Đăng ký">Đăng ký</a>
+                                            <a class="signin_windown" href="#web_register" title="Đăng ký">Đăng ký</a>
                                         </li>
                                     </ul>
                                 </li>
-                                <li class = "search-box">
+                                <li class = "search_box">
                                     <form>
                                         <input type = "text" name = "search_key" class = "inputsearch" vlaue = "Nhập từ khóa cần tìm" >
                                         <button id="btnSearch"><i class="fa fa-search" aria-hidden="true"></i></button></p>    
@@ -133,15 +133,15 @@
         </div>
         <!-- form đăng nhập -->
         <div id="web_login" >
-            <form class="form_login">
+            <form class="form_login" action="#" method="POST">
                 <button type="button" class="close"><i class="fa fa-times" aria-hidden="true"></i></button>
                 <div class="dn">
                     <h1>Đăng nhập</h1>
                     <div class="form_text">
-                        <input type ="text" name="Tên người dùng" placeholder="Tên người dùng" value autpcomplete="off">
+                        <input id="#login_user"type ="text" name="Tên người dùng" placeholder="Tên người dùng" value autpcomplete="off">
                     </div>
                     <div class="form_text">
-                        <input type ="text" name="Mật khẩu" placeholder="Mật khẩu" value autpcomplete="off">
+                        <input id="#login_ps" type ="text" name="Mật khẩu" placeholder="Mật khẩu" value autpcomplete="off">
                     </div>
                     <div class="form_text">
                         <input type ="hidden" name="Đăng nhập" value="Đăng nhập">
@@ -164,7 +164,7 @@
                 </div>
                 <div class="dk">
                     <li>
-                        <a href="" class="dk" title="Đăng ký">Đăng ký</a>
+                        <a href="#web_register" class="dk" title="Đăng ký">Đăng ký</a>
                     </li>
                     <li>
                         <p>|</p>
@@ -183,10 +183,16 @@
                 <div class="rgt">
                     <h1>Đăng ký</h1>
                     <div class="form_text">
+                        <input type ="text" name="Họ và tên" placeholder="Họ và tên" value autpcomplete="off">
+                    </div>
+                    <div class="form_text">
+                        <input type ="text" name="Email" placeholder="Email" value autpcomplete="off">
+                    </div>
+                    <div class="form_text">
                         <input type ="text" name="Tên người dùng" placeholder="Tên người dùng" value autpcomplete="off">
                     </div>
                     <div class="form_text">
-                        <input type ="text" name="Mật khẩu" placeholder="Mật khẩu" value autpcomplete="off">
+                        <input  type ="text" name="Mật khẩu" placeholder="Mật khẩu" value autpcomplete="off">
                     </div>
                     <div class="form_text">
                         <input type ="text" name="Xác nhận mật khẩu" placeholder="Xác nhận mật khẩu" value autpcomplete="off">
@@ -407,6 +413,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/active.js"></script>
+    <script src="js/login.js"></script>
 </body>
 
 </html>
