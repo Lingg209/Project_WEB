@@ -4,14 +4,14 @@
 /* css for main home */
 .wrapper section.bg-text-area .bg-text {
     background-image: url(img/overbr.jpg);
-    background-size: 100% 100%;
-    padding: 205px 280px;
+    background-size: revert;
+    padding: 15% 20%;
 }
 
 .wrapper section.bg-text-area .bg-text h3 {
     color: #448aff;
     font-family: Geometria;
-    font-size: 50px;
+    font-size: xx-large;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
@@ -21,9 +21,9 @@
 .wrapper section.bg-text-area .bg-text p {
     color: rgb(255, 255, 255);
     font-family: Geometria;
-    font-size: 20px;
+    font-size: initial;
     font-weight: 500;
-    line-height: 33px;
+    line-height: 30px;
     margin: 32px 0 0;
     text-align: center;
 }
@@ -39,13 +39,13 @@ section.blog-post-area .big-image-0 {
 
 section.blog-post-area .big-image {
     float: left;
-    width: 35%;
+    width: fit-content;
     padding-right: 35px;
 }
 
 section.blog-post-area .big-text {
     float: left;
-    width: 65%;
+    width: 100%;
     padding-right: 20px;
 }
 
@@ -60,7 +60,7 @@ section.blog-post-area .big-text h3 {
 section.blog-post-area .big-text h3 a {
     font-family: Geometria;
     font-weight: 700;
-    font-size: 40px;
+    font-size: revert;
     color: #061e37;
     text-decoration: none;
 }
