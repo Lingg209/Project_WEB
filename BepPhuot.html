@@ -14,6 +14,187 @@
 
 <body>
     <div class="wrapper">
+        <!-- header -->
+        <div class="wrapper_container">
+            <header class="header">
+                <div class="container">
+                    <!-- top toolbar -->
+                    <div class="header_top">
+                        <div class="clearfix">
+                            <div class="logo">
+                                <a href="BepPhuot.html"><img src="img/logo.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- main menu -->
+                    <div class="header_main">
+                        <nav class="menu">
+                            <ul class = "clearfix">
+                                <li>
+                                    <a href = "#" title="Công thức">Công thức <i class="fa fa-angle-down"></i></a>
+                                    <ul class="submenu">
+                                        <li>
+                                            <a href="/cong-thuc/Do-uong" title="Đồ uống">Thức uống</a>
+                                        </li>
+                                        <li>
+                                            <a href="/cong-thuc/khai-vi" title="Khai vị">Khai vị</a>
+                                        </li>
+                                        <li>
+                                            <a href="/cong-thuc/mon-man" title="Món mặn">Món mặn</a>
+                                        </li>
+                                        <li>
+                                            <a href="/cong-thuc/trang-mieng" title="Tráng miệng">Tráng miệng</a>
+                                        </li>
+                                        <li>
+                                            <a href="/cong-thuc/do-an-vat" title="Đồ ăn vặt">Đồ ăn vặt</a>
+                                        </li>
+                                        <li>
+                                            <a href="/cong-thuc/nuoc-cham" title="Nước chấm">Nước chấm</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href = "#" title="Ẩm thực">Ẩm thực<i class="fa fa-angle-down"></i></a>
+                                    <ul class="submenu">
+                                        <li>
+                                            <a href="/am-thuc/am-thuc-ba-mien" title="Ẩm thực ba miền">Ẩm thực ba miền</a>
+                                        </li>
+                                        <li>
+                                            <a href="/am-thuc/mon-ngon-ngay-tet" title="Món ngon ngày Tết">Món ngon ngày Tết</a>
+                                        </li>
+                                        <li>
+                                            <a href="/am-thuc/mam-com-gia-dinh" title="Mâm cơm gia đình">Mâm cơm gia đình</a>
+                                        </li>
+                                        <li>
+                                            <a href="/am-thuc/trang-mieng" title="Tráng miệng">Tráng miệng</a>
+                                        </li>
+                                        <li>
+                                            <a href="/am-thuc/Thuc-uong" title="Thức uống">Thức uống</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href = "#" title="Cẩm nang nhà bếp">Cẩm nang nhà bếp<i class="fa fa-angle-down"></i></a>
+                                    <ul class="submenu">
+                                        <li>
+                                            <a href="/cam-nang-nha-bep/kheo-tay-hay-lam" title="Khéo tay hay làm">Khéo tay hay làm</a>
+                                        </li>
+                                        <li>
+                                            <a href="/cam-nang-nha-bep/meo-vat-nha-bep" title="Mẹo vặt nhà bếp">Mẹo vặt nhà bếp</a>
+                                        </li>
+                                        <li>
+                                            <a href="/cam-nang-nha-bep/suc-khoe-gia-dinh" title="Sức khỏe gia đình">Sức khỏe gia đình</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href = "#" title="Mẹ & Bé">Mẹ & Bé<i class="fa fa-angle-down"></i></a>
+                                    <ul class="submenu">
+                                        <li>
+                                            <a href="/me-be/dinh-duong-ba-bau" title="Dinh dưỡng bà bầu">Dinh dưỡng bà bầu</a>
+                                        </li>
+                                        <li>
+                                            <a href="/me-be/dinh-duong-cho-be" title="Dinh dưỡng cho bé">Dinh dưỡng cho bé</a>
+                                        </li>
+                                        <li>
+                                            <a href="/me-be/meo-vat-huu-ich" title="Mẹo vặt hữu ích">Mẹo vặt hữu ích</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href = "#" title="Quán ngon">Quán ngon</a>
+                                </li>
+                                <li>
+                                    <a href="" title="Đăng nhập">Đăng nhập</a>
+                                    <ul class="submenu">
+                                        <li class="web_sign_up">
+                                            <a href="" title="Đăng nhập">Đăng nhập</a>
+                                        </li>
+                                        <li class="web_sign_in">
+                                            <a chref="" title="Đăng ký">Đăng ký</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class = "search-box">
+                                    <form>
+                                        <input type = "text" name = "search_key" class = "inputsearch" vlaue = "Nhập từ khóa cần tìm" >
+                                        <button id="btnSearch"><i class = "fas fa-search"></i></button></p>    
+                                    </form>
+                                </li>
+                                
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <!-- form đăng nhập -->
+        <div id="web_login" >
+            <form class="form_login">
+                <button type="button" class="close"><i class="fa fa-times" aria-hidden="true"></i></button>
+                <div class="dn">
+                    <h1>Đăng nhập</h1>
+                    <div class="form_text">
+                        <input type ="text" name="Tên người dùng" placeholder="Tên người dùng" value autpcomplete="off">
+                    </div>
+                    <div class="form_text">
+                        <input type ="text" name="Mật khẩu" placeholder="Mật khẩu" value autpcomplete="off">
+                    </div>
+                    <div class="form_text">
+                        <input type ="hidden" name="Đăng nhập" value="Đăng nhập">
+                        <button type="submit" class="">Đăng nhập</button>
+                    </div>
+                    <div class="text">
+                        <li>Đăng nhập bằng</li>
+                        <li>
+                            <a href="" class="icofb" title="Facebook">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>hoặc</li>
+                        <li>
+                            <a href="" class="icogg" title="Google">
+                                <i class="fa fa-google-plus"></i>
+                            </a>
+                        </li>
+                    </div>
+                </div>
+                <div class="dk">
+                    <li>
+                        <a href="" class="dk" title="Đăng ký">Đăng ký</a>
+                    </li>
+                    <li>
+                        <p>|</p>
+                    </li>
+                    <li>
+                        <a href="" class="dk" title="Quên mật khẩu">Quên mật khẩu</a>
+                    </li>
+                </div>
+            </form>
+        </div>
+
+        <!-- form đăng ký -->
+        <div id="web_register">
+            <form class="form_register">
+                <button type="button" class="close"><i class="fa fa-times" aria-hidden="true"></i></button>
+                <div class="rgt">
+                    <h1>Đăng ký</h1>
+                    <div class="form_text">
+                        <input type ="text" name="Tên người dùng" placeholder="Tên người dùng" value autpcomplete="off">
+                    </div>
+                    <div class="form_text">
+                        <input type ="text" name="Mật khẩu" placeholder="Mật khẩu" value autpcomplete="off">
+                    </div>
+                    <div class="form_text">
+                        <input type ="text" name="Xác nhận mật khẩu" placeholder="Xác nhận mật khẩu" value autpcomplete="off">
+                    </div>
+                    <div class="form_text">
+                        <input type ="hidden" name="Đăng ký" value="Đăng ký">
+                        <button type="submit" class="">Đăng ký</button>
+                    </div>
+                </div>
+            </form>
+        </div>
         <br>
         <section class="bg-text-area">
             <div class="container">
@@ -167,8 +348,45 @@
                     </div>
                 </div>
             </div>    
-            
         </section>
+        <!-- footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer_main">
+                    <div class="content">
+                        <div class="text_center">
+                            <a href="BepPhuot.html" title="">
+                                <img class="img" src="img/logo.png">
+                            </a>
+                        </div>
+                        <nav class="footer_menu"> 
+                            <ul class="clearfix"> 
+                                <li>
+                                    <a href = "BepPhuot.html" title="Trang chủ">Trang chủ</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="Giới thiệu">Giới thiệu</a>
+                                </li>  
+                                <li>
+                                    <a href="#" title="Liên hệ">Liên hệ</a>
+                                </li> 
+                                <li>
+                                    <a href="#" title="Chính sách bảo mật">Chính sách bảo mật</a>
+                                </li>  
+                                <li>
+                                    <a href="#" title="Điều khoản sử dụng">Điều khoản sử dụng</a>
+                                </li> 
+                                <li><a href="#" title="Tuyển dụng">Tuyển dụng</a>
+                                </li> 
+                                <li>
+                                    <a href="#" title="Trợ giúp">Trợ giúp</a>
+                                </li> 
+                            </ul> 
+
+                        </div>
+                    </div>
+            </div>
+        </footer>
     </div>
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

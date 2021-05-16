@@ -1,6 +1,418 @@
 
 
 /* start of .css */
+*
+{
+    box-sizing: border-box;
+}
+
+body 
+{
+    font-family: 'Roboto', sans-serif!important;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.clearfix::after
+{
+    display: block;
+    clear: both;
+}
+.wrapper header 
+{
+    width: 100%;
+
+}
+
+/* ---header toolbar--- */
+.wrapper header .container .header_top
+{
+    height: 50px;
+    background-color: #FEDD16;
+}
+
+.wrapper header .container .header_top .logo
+{
+    float: left;
+    position: relative;
+    height: 110px;
+    top: 100%;
+}
+
+.wrapper header .container .header_top .logo a
+{
+    text-decoration: none;
+    padding: 0px;
+    width: 110px;
+}
+.wrapper header .header_top .logo a img
+{
+    height: 100px;
+}
+
+.wrapper header .container .header_main
+{
+    margin: 0px auto;
+    padding-left: 50px;
+    background-color: white;
+}
+/*---menu---*/
+.wrapper header .container .header_main .menu
+{
+    flex-wrap: nowrap;
+    margin: 0px auto;
+    background-image: linear-gradient(to bottom, #FEDD16, #E56F00);
+    height: 50px;
+}
+
+.wrapper header .container .header_main .menu li
+{
+    margin: 0px;
+    list-style: none;
+    height: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.wrapper header .container .header_main .menu a
+{
+    transition: all linear 0.15s;
+    color: #919191;
+    text-decoration: none;
+}
+
+.wrapper header .container .header_main .menu li:hover > a
+{
+    text-decoration: none;
+    color: white;
+}
+
+/*cho phần menu cha*/
+.wrapper header .container .header_main .menu > ul > li  
+{
+    float: left;
+    display: inline-block;
+    position: relative;
+    font-size:  17px;
+}
+
+.wrapper header .container .header_main .menu > ul > li > a
+{
+    padding: 15px 30px;
+    display: inline-block;
+    color: white;
+}
+
+.wrapper header .container .header_main .menu > ul > li > form
+{
+    display: inline-block;
+    color: white;
+    height: 50px;
+    padding: 10px 15px;
+}
+
+.wrapper header .container .header_main .menu > ul > li > form > .inputsearch
+{
+    line-height: 30px;
+    border: none;
+    background: #fff;
+    border-radius: 5px 0px 0px 5px;
+    width: 250px;
+    text-align: left;
+    margin-right: -3px;
+}
+
+.wrapper header .container .header_main .menu > ul > li > form > #btnSearch
+{
+    line-height: 30px;
+    width: 30px;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    background-color: #fff;
+    max-width: 50px;
+    border-left: 1px solid #c9cfd0;
+    background-repeat: no-repeat;
+    background-position: 6px 5px;
+}
+
+.wrapper header .container .header_main .menu > ul > li:hover > a
+{
+    background-image: linear-gradient(to bottom, #FEDD16, #F4FA58);
+}
+
+/* ---menu con---*/
+.wrapper header .container .header_main .menu li:hover .submenu
+{
+    z-index: 1;
+    opacity: 1;
+}
+
+.wrapper header .container .header_main .submenu
+{
+    min-width: 220px;
+    padding: 5px 5px;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity linear 0.15s;
+    background-color:  #F4FA58;
+}
+
+.wrapper header .container .header_main .submenu li
+{
+    display: block;
+    font-size:  16px;;
+
+}
+
+.wrapper header .container .header_main .submenu li a
+{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    display: block;
+}
+
+.wrapper header .container .header_main .submenu li a:hover 
+{
+    background:#3e3436;
+}
+/* ---form đăng nhập--- */
+.wrapper #web_login 
+{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    padding-top: 60px;
+    opacity: 1;
+    margin: 0 auto;
+    background-color: rgb(182, 182, 181, 0.3);
+    border: 1px solid rgb(91, 91, 91);
+}
+
+.wrapper #web_login .form_login
+{
+    width: 400px;
+    height: 430px;
+    margin: 0 auto;
+    opacity: 1;
+    z-index: 1050;
+    position: relative;
+    background:rgb(253, 247, 237);
+    border-radius: 10px;
+}
+
+.wrapper #web_login .form_login .close
+{
+    float: right;
+    height: 25px;
+    width: 25px;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.wrapper #web_login .form_login h1
+{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.wrapper #web_login .form_login .dn
+{
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.wrapper #web_login .form_login .form_text
+{
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.wrapper #web_login .form_login .form_text input
+{
+    width: 100%;
+    height: 35px;
+    border: 3px solid rgb(193, 189, 189);
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+.wrapper #web_login .form_login .form_text button
+{
+    width: 100%;
+    height: 35px;
+    border: 3px solid rgb(193, 189, 189);
+    box-shadow: 1px rgb(111, 110, 110);
+    border-radius: 10px;
+    background-color: #FEDD16;
+}
+
+.wrapper #web_login .form_login .form_text .focus
+{
+    transform: translateY(-45px)
+}
+
+.wrapper #web_login .form_login .text
+{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    align-items: center;
+    display: flex;
+    padding-left: 10%;
+    list-style: none;
+}
+
+.wrapper #web_login .form_login > .dn > .text > li
+{
+    padding: 3%;
+}
+
+.wrapper #web_login .form_login .dn a
+{
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    padding: 5px 5px;
+    font-size: 15px;
+}
+
+.wrapper #web_login .form_login .icofb
+{
+    background-color: #1877F2;
+}
+
+.wrapper #web_login .form_login .icogg
+{
+    background-color: #D84638;
+}
+
+.wrapper #web_login .form_login .dn a i
+{
+    text-align: center;
+    color: white;
+}
+
+.wrapper #web_login .form_login .dn a .fa
+{
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.wrapper #web_login .form_login .dk
+{
+    align-items: center;
+    text-align: centers;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    list-style: none;
+}
+
+.wrapper #web_login .form_login .dk a
+{
+    text-decoration: none;   
+}
+
+.wrapper #web_login .form_login > .dk > li
+{
+    padding-left: 5%;
+}
+
+
+/* ---form đăng ký--- */
+.wrapper #web_register
+{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    padding-top: 60px;
+    opacity: 1;
+    margin: 0 auto;
+    background-color: rgb(182, 182, 181, 0.3);
+    border: 1pxx solid rgb(91, 91, 91);
+}
+
+.wrapper #web_register .form_register
+{
+    width: 400px;
+    height: 430px;
+    margin: 0 auto;
+    opacity: 1;
+    z-index: 1050;
+    position: relative;
+    background:rgb(253, 247, 237);
+    border-radius: 10px;
+}
+
+.wrapper #web_register .form_register .close
+{
+    float: right;
+    height: 25px;
+    width: 25px;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-top: 5px;
+
+}
+
+.wrapper #web_register .form_register h1
+{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.wrapper #web_register .form_register .rgt
+{
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.wrapper #web_register .form_register .form_text
+{
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.wrapper #web_register .form_register .form_text input
+{
+    width: 100%;
+    height: 35px;
+    border: 3px solid rgb(193, 189, 189);
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+.wrapper #web_register .form_register .form_text button
+{
+    width: 100%;
+    height: 35px;
+    border: 3px solid rgb(193, 189, 189);
+    border-radius: 10px;
+    background-color: #FEDD16;
+}
 /* css for main home */
 .wrapper section.bg-text-area .bg-text {
     background-image: url(img/overbr.jpg);
@@ -231,6 +643,78 @@ section.blog-post-area h4 span.author-name {
     margin-bottom: 30px;
 }
 
+/* ---footer--- */
+.clearfix::after
+{
+    display: block;
+    clear: both;
+}
+
+.wrapper footer .container .footer_main
+{
+    width: 100%;
+    box-shadow: 0px 1px 3px rgba(49, 48, 48, 0.2);
+    background:#2E3A49;
+}
+
+.wrapper footer .container .footer_main .content
+{
+    width: 1000px;
+    margin: 0px auto;
+    padding: 20px; 
+    margin-top: 150px;
+}
+
+.wrapper footer .container .footer_main .content .text_center
+{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.wrapper footer .container .footer_main .content .text_center a img
+{
+    width: 75px;
+}
+
+.wrapper footer .container .footer_main .content .footer_menu
+{
+    margin-top: 15px;
+    border-top: 1px solid rgb(189, 185, 185);
+    height: 70px;
+    padding-top: 20px;
+}
+.wrapper footer .container .footer_main .content .footer_menu li
+{
+    margin: 0px;
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.wrapper footer .container .footer_main .content .footer_menu a
+{
+    text-decoration: none;
+    color: white;
+
+}
+
+.wrapper footer .container .footer_main .content .footer_menu > ul > li
+{
+    float: left;
+    display: inline-block;
+    position: relative;
+    font-size:  17px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+
+}
+
+.wrapper footer .container .footer_main .content .footer_menu > ul > li > a
+{
+    padding: 10px 20px;
+    display: inline-block;
+    color: white;
+}
 
 /* css for comment */
 
