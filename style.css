@@ -8,7 +8,7 @@
 
 body 
 {
-    font-family: 'Roboto', sans-serif!important;
+    font-family: Geometria;
     font-weight: 400;
     font-size: 14px;
     color: #333;
@@ -77,7 +77,7 @@ body
     margin: 0px;
     list-style: none;
     height: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Geometria;
 }
 
 .wrapper header .container .header_main .menu a
@@ -314,7 +314,7 @@ body
 
 .wrapper #web_login .form_login .dn a .fa
 {
-    font-family: "Font Awesome 5 Brands";
+    font-family: Geometria;
     font-weight: 400;
     font-size: 20px;
 }
@@ -582,7 +582,7 @@ section.blog-post-area h4 span.author-name {
     border-radius: 50%;
     color: #448aff;
     display: inline-block;
-    font-family: "Roboto", sans-serif;
+    font-family: Geometria;
     font-size: 15px;
     font-weight: 400;
     height: 45px;
