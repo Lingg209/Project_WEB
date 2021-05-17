@@ -415,7 +415,7 @@ body
 /* css for main home */
 .wrapper section.bg-text-area .bg-text {
     background-image: url(img/picbr.jpg);
-    background-size: revert;
+    background-size: cover;
     padding: 15% 20%;
 }
 
@@ -430,7 +430,7 @@ body
 }
 
 .wrapper section.bg-text-area .bg-text p {
-    color: #2E3A49;
+    color: #D84638;
     font-family: Geometria;
     font-size: x-large;
     font-weight: 500;
